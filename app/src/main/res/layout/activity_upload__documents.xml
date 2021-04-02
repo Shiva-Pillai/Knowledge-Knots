@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload_Documents"
+    android:orientation="vertical"
+    android:fillViewport="false"
+    android:weightSum="100"
+    android:background="#F7C1D2"
+    >
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:text="Upload Document"
+                android:textColor="#ffffff"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp">
+
+            <EditText
+                android:id="@+id/et_sub_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject Name"
+                android:inputType="text"
+                android:drawableLeft="@drawable/ic_file_name_icon"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/et_ch_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Chapter Number"
+                android:inputType="number"
+                android:drawableLeft="@drawable/ic_file_name_icon"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/et_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Topics"
+                android:inputType="text"
+                android:drawableLeft="@drawable/ic_file_name_icon"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/et_pdf_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pdf Name"
+                android:inputType="text"
+                android:drawableLeft="@drawable/ic_file_name_icon"
+                android:drawablePadding="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select The Branch"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/spinner_branch"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select The Semester"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/spinner_sem"/>
+
+
+            <Button
+                android:id="@+id/btn_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/rounded_buttons_pink"
+                android:drawableRight="@drawable/ic_upload_btn_icon"
+                android:drawablePadding="15dp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Upload"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

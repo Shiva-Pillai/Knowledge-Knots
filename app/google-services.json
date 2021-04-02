@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1024431587474",
+    "firebase_url": "https://knowledge-knots.firebaseio.com",
+    "project_id": "knowledge-knots",
+    "storage_bucket": "knowledge-knots.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024431587474:android:5b72ae5b8ffd4f8d43264b",
+        "android_client_info": {
+          "package_name": "com.shivapillai.knowledgeknots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024431587474-lkg11gdportdjl533p80bjqlpfnrj835.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIdAen9tvtXBYhObB5kOQxZ16NU2apyDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024431587474-lkg11gdportdjl533p80bjqlpfnrj835.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

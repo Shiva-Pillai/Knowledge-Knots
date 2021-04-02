@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Knowledge KNOTS</string>
+
+    <string-array name="Branch_array">
+        <item>Automobile</item>
+        <item>Computer Science</item>
+        <item>Electrical</item>
+        <item>Electronics</item>
+        <item>Information Technology</item>
+        <item>Mechanical</item>
+    </string-array>
+
+    <string-array name="Semester_array">
+        <item>Ist</item>
+        <item>IInd</item>
+        <item>IIIrd</item>
+        <item>IVth</item>
+        <item>Vth</item>
+        <item>VIth</item>
+        <item>VIIth</item>
+        <item>VIIIth</item>
+    </string-array>
+</resources>
